@@ -1,0 +1,5 @@
+com\perfecto\demo\pageObjects\FlipKart\LoginScreenPageObject.class
+com\perfecto\demo\pageObjects\FlipKart\AccountsScreenPageObject.class
+com\perfecto\demo\utils\Utilities.class
+com\perfecto\demo\tests\Flipkart\LoginToFlipKartTest.class
+com\perfecto\demo\pageObjects\FlipKart\HomeScreenPageObject.class

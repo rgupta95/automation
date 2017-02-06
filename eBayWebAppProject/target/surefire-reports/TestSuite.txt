@@ -1,0 +1,112 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 4, Errors: 0, Skipped: 8, Time elapsed: 4.413 sec <<< FAILURE!
+beforeTest(com.perfecto.demo.tests.eBay.LoginToeBayTest)  Time elapsed: 3.347 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 1.69 seconds
+Build info: version: '2.48.0', revision: 'b7b081a4f1289f17e8ecd38bc67e137c2a12e34a', time: '2015-10-07 09:50:14'
+System info: host: 'CeXs-MacBook-Air-4.local', ip: '192.168.0.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.4', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+	at com.perfectomobile.selenium.server.MobileLocalServerConnector.getStartExecutionResult(MobileLocalServerConnector.java:124)
+	at com.perfectomobile.selenium.server.MobileLocalServerConnector.startExecution(MobileLocalServerConnector.java:84)
+	at com.perfectomobile.selenium.MobileDriver.startExecution(MobileDriver.java:221)
+	at com.perfectomobile.selenium.MobileDriver.init(MobileDriver.java:212)
+	at com.perfectomobile.selenium.MobileDriver.<init>(MobileDriver.java:107)
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.initMobileDriver(PerfectoMobileDriver.java:311)
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.<init>(PerfectoMobileDriver.java:81)
+	at sun.reflect.GeneratedConstructorAccessor6977.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.callConstructor(DefaultDriverProvider.java:103)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.newInstance(DefaultDriverProvider.java:97)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:60)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$BrowserCreator.call(MobileDefaultSession.java:228)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$BrowserCreator.call(MobileDefaultSession.java:215)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$1.run(MobileDefaultSession.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+beforeTest(com.perfecto.demo.tests.eBay.LoginToeBayTest)  Time elapsed: 3.349 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 1.66 seconds
+Build info: version: '2.48.0', revision: 'b7b081a4f1289f17e8ecd38bc67e137c2a12e34a', time: '2015-10-07 09:50:14'
+System info: host: 'CeXs-MacBook-Air-4.local', ip: '192.168.0.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.4', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+	at com.perfectomobile.selenium.server.MobileLocalServerConnector.getStartExecutionResult(MobileLocalServerConnector.java:124)
+	at com.perfectomobile.selenium.server.MobileLocalServerConnector.startExecution(MobileLocalServerConnector.java:84)
+	at com.perfectomobile.selenium.MobileDriver.startExecution(MobileDriver.java:221)
+	at com.perfectomobile.selenium.MobileDriver.init(MobileDriver.java:212)
+	at com.perfectomobile.selenium.MobileDriver.<init>(MobileDriver.java:107)
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.initMobileDriver(PerfectoMobileDriver.java:311)
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.<init>(PerfectoMobileDriver.java:81)
+	at sun.reflect.GeneratedConstructorAccessor6977.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.callConstructor(DefaultDriverProvider.java:103)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.newInstance(DefaultDriverProvider.java:97)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:60)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$BrowserCreator.call(MobileDefaultSession.java:228)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$BrowserCreator.call(MobileDefaultSession.java:215)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$1.run(MobileDefaultSession.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+beforeTest(com.perfecto.demo.tests.eBay.LoginToeBayTest)  Time elapsed: 3.349 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 1.65 seconds
+Build info: version: '2.48.0', revision: 'b7b081a4f1289f17e8ecd38bc67e137c2a12e34a', time: '2015-10-07 09:50:14'
+System info: host: 'CeXs-MacBook-Air-4.local', ip: '192.168.0.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.4', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+	at com.perfectomobile.selenium.server.MobileLocalServerConnector.getStartExecutionResult(MobileLocalServerConnector.java:124)
+	at com.perfectomobile.selenium.server.MobileLocalServerConnector.startExecution(MobileLocalServerConnector.java:84)
+	at com.perfectomobile.selenium.MobileDriver.startExecution(MobileDriver.java:221)
+	at com.perfectomobile.selenium.MobileDriver.init(MobileDriver.java:212)
+	at com.perfectomobile.selenium.MobileDriver.<init>(MobileDriver.java:107)
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.initMobileDriver(PerfectoMobileDriver.java:311)
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.<init>(PerfectoMobileDriver.java:81)
+	at sun.reflect.GeneratedConstructorAccessor6977.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.callConstructor(DefaultDriverProvider.java:103)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.newInstance(DefaultDriverProvider.java:97)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:60)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$BrowserCreator.call(MobileDefaultSession.java:228)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$BrowserCreator.call(MobileDefaultSession.java:215)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$1.run(MobileDefaultSession.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+beforeTest(com.perfecto.demo.tests.eBay.LoginToeBayTest)  Time elapsed: 0.908 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 2.62 seconds
+Build info: version: '2.48.0', revision: 'b7b081a4f1289f17e8ecd38bc67e137c2a12e34a', time: '2015-10-07 09:50:14'
+System info: host: 'CeXs-MacBook-Air-4.local', ip: '192.168.0.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.4', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+	at com.perfectomobile.selenium.server.MobileLocalServerConnector.getStartExecutionResult(MobileLocalServerConnector.java:124)
+	at com.perfectomobile.selenium.server.MobileLocalServerConnector.startExecution(MobileLocalServerConnector.java:84)
+	at com.perfectomobile.selenium.MobileDriver.startExecution(MobileDriver.java:221)
+	at com.perfectomobile.selenium.MobileDriver.init(MobileDriver.java:212)
+	at com.perfectomobile.selenium.MobileDriver.<init>(MobileDriver.java:107)
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.initMobileDriver(PerfectoMobileDriver.java:311)
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.<init>(PerfectoMobileDriver.java:81)
+	at sun.reflect.GeneratedConstructorAccessor6977.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.callConstructor(DefaultDriverProvider.java:103)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.newInstance(DefaultDriverProvider.java:97)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:60)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$BrowserCreator.call(MobileDefaultSession.java:228)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$BrowserCreator.call(MobileDefaultSession.java:215)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$1.run(MobileDefaultSession.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+

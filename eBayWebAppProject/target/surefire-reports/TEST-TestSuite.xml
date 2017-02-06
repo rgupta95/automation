@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="10.953" tests="12" errors="0" skipped="8" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.77-b03"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/cex/Downloads/eBayWebAppProject"/>
+    <property name="java.runtime.version" value="1.8.0_77-b03"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/f3/d3pqx76n2x71d0qnlfk0yy0m0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/cex/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf3720817488688235566.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/cex/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.4"/>
+    <property name="user.home" value="/Users/cex"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="cex"/>
+    <property name="java.class.path" value="/Users/cex/Downloads/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.5.0.20140605-2032/jars/plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_77"/>
+    <property name="java.ext.dirs" value="/Users/cex/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/cex/Downloads/eBayWebAppProject/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="beforeTest" classname="com.perfecto.demo.tests.eBay.LoginToeBayTest" time="3.347">
+    <failure message="Failed to start execution - Access denied - bad credentials&#10;Command duration or timeout: 1.69 seconds&#10;Build info: version: &apos;2.48.0&apos;, revision: &apos;b7b081a4f1289f17e8ecd38bc67e137c2a12e34a&apos;, time: &apos;2015-10-07 09:50:14&apos;&#10;System info: host: &apos;CeXs-MacBook-Air-4.local&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.4&apos;, java.version: &apos;1.8.0_77&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 1.69 seconds
+Build info: version: '2.48.0', revision: 'b7b081a4f1289f17e8ecd38bc67e137c2a12e34a', time: '2015-10-07 09:50:14'
+System info: host: 'CeXs-MacBook-Air-4.local', ip: '192.168.0.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.4', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+	at com.perfectomobile.selenium.server.MobileLocalServerConnector.getStartExecutionResult(MobileLocalServerConnector.java:124)
+	at com.perfectomobile.selenium.server.MobileLocalServerConnector.startExecution(MobileLocalServerConnector.java:84)
+	at com.perfectomobile.selenium.MobileDriver.startExecution(MobileDriver.java:221)
+	at com.perfectomobile.selenium.MobileDriver.init(MobileDriver.java:212)
+	at com.perfectomobile.selenium.MobileDriver.<init>(MobileDriver.java:107)
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.initMobileDriver(PerfectoMobileDriver.java:311)
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.<init>(PerfectoMobileDriver.java:81)
+	at sun.reflect.GeneratedConstructorAccessor6977.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.callConstructor(DefaultDriverProvider.java:103)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.newInstance(DefaultDriverProvider.java:97)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:60)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$BrowserCreator.call(MobileDefaultSession.java:228)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$BrowserCreator.call(MobileDefaultSession.java:215)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$1.run(MobileDefaultSession.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]></failure>
+  </testcase>
+  <testcase name="beforeTest" classname="com.perfecto.demo.tests.eBay.LoginToeBayTest" time="3.349">
+    <failure message="Failed to start execution - Access denied - bad credentials&#10;Command duration or timeout: 1.66 seconds&#10;Build info: version: &apos;2.48.0&apos;, revision: &apos;b7b081a4f1289f17e8ecd38bc67e137c2a12e34a&apos;, time: &apos;2015-10-07 09:50:14&apos;&#10;System info: host: &apos;CeXs-MacBook-Air-4.local&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.4&apos;, java.version: &apos;1.8.0_77&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 1.66 seconds
+Build info: version: '2.48.0', revision: 'b7b081a4f1289f17e8ecd38bc67e137c2a12e34a', time: '2015-10-07 09:50:14'
+System info: host: 'CeXs-MacBook-Air-4.local', ip: '192.168.0.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.4', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+	at com.perfectomobile.selenium.server.MobileLocalServerConnector.getStartExecutionResult(MobileLocalServerConnector.java:124)
+	at com.perfectomobile.selenium.server.MobileLocalServerConnector.startExecution(MobileLocalServerConnector.java:84)
+	at com.perfectomobile.selenium.MobileDriver.startExecution(MobileDriver.java:221)
+	at com.perfectomobile.selenium.MobileDriver.init(MobileDriver.java:212)
+	at com.perfectomobile.selenium.MobileDriver.<init>(MobileDriver.java:107)
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.initMobileDriver(PerfectoMobileDriver.java:311)
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.<init>(PerfectoMobileDriver.java:81)
+	at sun.reflect.GeneratedConstructorAccessor6977.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.callConstructor(DefaultDriverProvider.java:103)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.newInstance(DefaultDriverProvider.java:97)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:60)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$BrowserCreator.call(MobileDefaultSession.java:228)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$BrowserCreator.call(MobileDefaultSession.java:215)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$1.run(MobileDefaultSession.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]></failure>
+  </testcase>
+  <testcase name="beforeTest" classname="com.perfecto.demo.tests.eBay.LoginToeBayTest" time="3.349">
+    <failure message="Failed to start execution - Access denied - bad credentials&#10;Command duration or timeout: 1.65 seconds&#10;Build info: version: &apos;2.48.0&apos;, revision: &apos;b7b081a4f1289f17e8ecd38bc67e137c2a12e34a&apos;, time: &apos;2015-10-07 09:50:14&apos;&#10;System info: host: &apos;CeXs-MacBook-Air-4.local&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.4&apos;, java.version: &apos;1.8.0_77&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 1.65 seconds
+Build info: version: '2.48.0', revision: 'b7b081a4f1289f17e8ecd38bc67e137c2a12e34a', time: '2015-10-07 09:50:14'
+System info: host: 'CeXs-MacBook-Air-4.local', ip: '192.168.0.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.4', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+	at com.perfectomobile.selenium.server.MobileLocalServerConnector.getStartExecutionResult(MobileLocalServerConnector.java:124)
+	at com.perfectomobile.selenium.server.MobileLocalServerConnector.startExecution(MobileLocalServerConnector.java:84)
+	at com.perfectomobile.selenium.MobileDriver.startExecution(MobileDriver.java:221)
+	at com.perfectomobile.selenium.MobileDriver.init(MobileDriver.java:212)
+	at com.perfectomobile.selenium.MobileDriver.<init>(MobileDriver.java:107)
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.initMobileDriver(PerfectoMobileDriver.java:311)
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.<init>(PerfectoMobileDriver.java:81)
+	at sun.reflect.GeneratedConstructorAccessor6977.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.callConstructor(DefaultDriverProvider.java:103)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.newInstance(DefaultDriverProvider.java:97)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:60)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$BrowserCreator.call(MobileDefaultSession.java:228)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$BrowserCreator.call(MobileDefaultSession.java:215)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$1.run(MobileDefaultSession.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]></failure>
+  </testcase>
+  <testcase name="loginWithInvalidCredentials" classname="com.perfecto.demo.tests.eBay.LoginToeBayTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginWithInvalidCredentials" classname="com.perfecto.demo.tests.eBay.LoginToeBayTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginWithInvalidCredentials" classname="com.perfecto.demo.tests.eBay.LoginToeBayTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.perfecto.demo.tests.eBay.LoginToeBayTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.perfecto.demo.tests.eBay.LoginToeBayTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.perfecto.demo.tests.eBay.LoginToeBayTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeTest" classname="com.perfecto.demo.tests.eBay.LoginToeBayTest" time="0.908">
+    <failure message="Failed to start execution - Access denied - bad credentials&#10;Command duration or timeout: 2.62 seconds&#10;Build info: version: &apos;2.48.0&apos;, revision: &apos;b7b081a4f1289f17e8ecd38bc67e137c2a12e34a&apos;, time: &apos;2015-10-07 09:50:14&apos;&#10;System info: host: &apos;CeXs-MacBook-Air-4.local&apos;, ip: &apos;192.168.0.101&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.4&apos;, java.version: &apos;1.8.0_77&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: Failed to start execution - Access denied - bad credentials
+Command duration or timeout: 2.62 seconds
+Build info: version: '2.48.0', revision: 'b7b081a4f1289f17e8ecd38bc67e137c2a12e34a', time: '2015-10-07 09:50:14'
+System info: host: 'CeXs-MacBook-Air-4.local', ip: '192.168.0.101', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.4', java.version: '1.8.0_77'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+	at com.perfectomobile.selenium.server.MobileLocalServerConnector.getStartExecutionResult(MobileLocalServerConnector.java:124)
+	at com.perfectomobile.selenium.server.MobileLocalServerConnector.startExecution(MobileLocalServerConnector.java:84)
+	at com.perfectomobile.selenium.MobileDriver.startExecution(MobileDriver.java:221)
+	at com.perfectomobile.selenium.MobileDriver.init(MobileDriver.java:212)
+	at com.perfectomobile.selenium.MobileDriver.<init>(MobileDriver.java:107)
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.initMobileDriver(PerfectoMobileDriver.java:311)
+	at com.perfectomobile.selenium.server.PerfectoMobileDriver.<init>(PerfectoMobileDriver.java:81)
+	at sun.reflect.GeneratedConstructorAccessor6977.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.callConstructor(DefaultDriverProvider.java:103)
+	at org.openqa.selenium.remote.server.DefaultDriverProvider.newInstance(DefaultDriverProvider.java:97)
+	at org.openqa.selenium.remote.server.DefaultDriverFactory.newInstance(DefaultDriverFactory.java:60)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$BrowserCreator.call(MobileDefaultSession.java:228)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$BrowserCreator.call(MobileDefaultSession.java:215)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$1.run(MobileDefaultSession.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]></failure>
+  </testcase>
+  <testcase name="loginWithInvalidCredentials" classname="com.perfecto.demo.tests.eBay.LoginToeBayTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterTest" classname="com.perfecto.demo.tests.eBay.LoginToeBayTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
